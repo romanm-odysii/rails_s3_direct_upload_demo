@@ -49,7 +49,7 @@ GEM
     builder (3.2.3)
     byebug (9.1.0)
     concurrent-ruby (1.0.5)
-    crass (1.0.2)
+    crass (1.0.3)
     debug_inspector (0.0.3)
     dotenv (2.2.1)
     dotenv-rails (2.2.1)
@@ -73,7 +73,7 @@ GEM
     jquery-ui-rails (5.0.5)
       railties (>= 3.2.16)
     json (1.8.6)
-    loofah (2.1.1)
+    loofah (2.2.2)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.6)
@@ -167,6 +167,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails (~> 5.0, < 5.1)
+  loofah (~> 2.2.1)
   quiet_assets
   rails (~> 4.2.6)
   sass-rails (~> 5.0)
