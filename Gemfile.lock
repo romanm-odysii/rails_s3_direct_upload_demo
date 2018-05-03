@@ -49,7 +49,7 @@ GEM
     builder (3.2.3)
     byebug (9.1.0)
     concurrent-ruby (1.0.5)
-    crass (1.0.3)
+    crass (1.0.4)
     debug_inspector (0.0.3)
     dotenv (2.2.1)
     dotenv-rails (2.2.1)
@@ -84,7 +84,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.10.3)
     multi_json (1.12.2)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
@@ -108,8 +108,8 @@ GEM
       activesupport (>= 4.2.0.beta, < 5.0)
       nokogiri (~> 1.6)
       rails-deprecated_sanitizer (>= 1.0.1)
-    rails-html-sanitizer (1.0.3)
-      loofah (~> 2.0)
+    rails-html-sanitizer (1.0.4)
+      loofah (~> 2.2, >= 2.2.2)
     railties (4.2.10)
       actionpack (= 4.2.10)
       activesupport (= 4.2.10)
@@ -167,7 +167,6 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails (~> 5.0, < 5.1)
-  loofah (~> 2.2.1)
   quiet_assets
   rails (~> 4.2.6)
   sass-rails (~> 5.0)
@@ -178,4 +177,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
