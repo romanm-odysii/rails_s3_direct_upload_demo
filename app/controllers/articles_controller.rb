@@ -66,7 +66,7 @@ class ArticlesController < ApplicationController
 
     def set_s3_direct_post
       @client = Aws::S3::Client.new
-      @resource = Aws::S3::Resource.new @client
+      @resource = Aws::S3::Resource.new( client: @client )
       @s3_bucket = @resource.bucket( ENV.fetch('AWS_BUCKET') )
 
       @s3_direct_post = @s3_bucket.presigned_post(
